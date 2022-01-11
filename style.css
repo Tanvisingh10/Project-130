@@ -1,0 +1,30 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.span_note{
+    font-size: 20px;
+    color: black;
+} 
+#btn{
+    font-size: 40px;
+    width: 145px;
+    float: left;
+    margin-left: 65px;
+}
+canvas{
+    border: 8px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{ border: 10px solid pink;}
+    to{ border: 12px solid rgb(6, 157, 245);}
+}
